@@ -63,8 +63,10 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.78</version>
+            <artifactId>fastjson-c1</artifactId>
+            <version>1.2.46-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/fastjson-c1-1.2.46-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>org.bouncycastle</groupId>
